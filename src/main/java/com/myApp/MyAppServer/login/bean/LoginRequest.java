@@ -1,4 +1,4 @@
-package com.myApp.MyAppServer.Login.bean;
+package com.myApp.MyAppServer.login.bean;
 
 
 import lombok.Getter;

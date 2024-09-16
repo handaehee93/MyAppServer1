@@ -1,7 +1,7 @@
-package com.myApp.MyAppServer.Login.controller;
+package com.myApp.MyAppServer.login.controller;
 
 
-import com.myApp.MyAppServer.Login.bean.LoginRequest;
+import com.myApp.MyAppServer.login.bean.LoginRequest;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

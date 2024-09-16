@@ -27,7 +27,7 @@ dependencies {
 	// Spring Boot Starter Dependencies
 	//implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'  // OAuth2 client for social login
 	//implementation 'org.springframework.boot:spring-boot-starter-security'   // Spring Security for login/auth
-	//implementation 'org.springframework.boot:spring-boot-starter-validation' // Validation for input validation
+	implementation 'org.springframework.boot:spring-boot-starter-validation' // Validation for input validation
 	implementation 'org.springframework.boot:spring-boot-starter-web'        // Web for RESTful APIs
 
 	// Lombok for reducing boilerplate code
