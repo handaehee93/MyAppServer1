@@ -1,4 +1,4 @@
-package com.myApp.MyAppServer.member;
+package com.myApp.MyAppServer.member.bean;
 
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Size;

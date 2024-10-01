@@ -1,5 +1,7 @@
-package com.myApp.MyAppServer.member;
+package com.myApp.MyAppServer.member.controller;
 
+import com.myApp.MyAppServer.member.mapper.MemberRepository;
+import com.myApp.MyAppServer.member.bean.Member;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

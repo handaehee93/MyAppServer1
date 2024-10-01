@@ -1,5 +1,6 @@
-package com.myApp.MyAppServer.member;
+package com.myApp.MyAppServer.member.mapper;
 
+import com.myApp.MyAppServer.member.bean.Member;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Repository;
 import java.util.*;

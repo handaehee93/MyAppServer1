@@ -1,7 +1,7 @@
 package com.myApp.MyAppServer.login.controller;
 
 
-import com.myApp.MyAppServer.login.bean.LoginRequest;
+import com.myApp.MyAppServer.login.bean.LoginRequestBean;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -13,8 +13,9 @@ public class LoginController {
     private final String VALID_PASSWORD = "123";
 
     @PostMapping("/login")
-    public boolean login(@RequestBody LoginRequest loginRequest) {
+    public boolean login(@RequestBody LoginRequestBean loginRequest) {
         System.out.println(loginRequest.getEmail());
+
         // 입력한 이메일과 비밀번호가 하드코딩된 값과 일치하면 true 반환
         if (VALID_EMAIL.equals(loginRequest.getEmail()) &&
                 VALID_PASSWORD.equals(loginRequest.getPassword())) {

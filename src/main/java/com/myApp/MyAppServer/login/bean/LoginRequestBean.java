@@ -6,12 +6,12 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class LoginRequest {
+public class LoginRequestBean {
     private String email;
     private String password;
 
     // 기본 생성자
-    public LoginRequest() {}
+    public LoginRequestBean() {}
 
 
 }
